@@ -64,43 +64,6 @@ def create_chain():
   llm = ChatOpenAI(openai_api_key=OPENAI_KEY, model='gpt-3.5-turbo')
   return LLMChain(llm=llm, prompt=template, output_parser=parser)
 
-def refine_origin(parsed: dict):
-  if not parsed['origin']:
-    return parsed
-  match = re.match(r'SCP-(\d+)', parsed['origin'])
-  if match:
-    scp_number = int(match.group(1))
-    with open(os.path.join(DATA_PATH, 'ab_proposals.txt')) as f:
-      lines = f.readlines()
-    file_name = lines[scp_number-1].strip()
-    url = f'https://github.com/scalacenter/advisoryboard/blob/main/proposals/{file_name}'
-    parsed['origin'] = url
-  else:
-    parsed['origin'] = None
-  return parsed
-
-def refine_contributors(parsed: dict):
-  def regularize_name(name: str):
-    name = name.lower()
-    name = unidecode.unidecode(name)  # é -> e
-    return name
-
-  with open(os.path.join(DATA_PATH, 'contributors.yml')) as f:
-    contributors = yaml.safe_load(f)
-
-  # For each contributor in parsed, find them by name and replace with github username
-  for i, contributor in enumerate(parsed['contributors']):
-    for c in contributors['members']:
-      if regularize_name(c['name']) == regularize_name(contributor):
-        parsed['contributors'][i] = c['member']
-        break
-  return parsed
-
-def refine(parsed: dict):
-  parsed = refine_origin(parsed)
-  parsed = refine_contributors(parsed)
-  return parsed
-
 def process_docs(docs, chain, output_file):
   results = []
   for i, doc in enumerate(docs):
@@ -108,7 +71,6 @@ def process_docs(docs, chain, output_file):
     content = unidecode.unidecode(doc.page_content)
     try:
       res = chain.predict(project_data=content).model_dump()
-      res = refine(res)
     except Exception as e:
       print(e)
       print(f'Failed to process doc {i+1}, {content[:30]} skipping...')
