@@ -1,0 +1,263 @@
+members:
+  - member: darja
+    name: Darja Jovanovic
+    title: Executive Director
+    email: darja.jovanovic@epfl.ch
+    github: darjutak
+    twitter: darjutak
+    photo: /resources/img/darja.png
+    contact_for: [corporateMembership, donations, advisoryBoardMeeting, sip, communication]
+    active: true
+  - member: julien
+    name: Julien Richard-Foy
+    title: Technical Director
+    email: julien.richard-foy@epfl.ch
+    github: julienrf
+    twitter: julienrf
+    photo: /resources/img/julien.png
+    contact_for: [education, scalajsBundler, documentationImprovements, collectionsRedesign]
+    active: false
+  - member: martin
+    name: Martin Odersky
+    title: Academic Director
+    email: martin.odersky@epfl.ch
+    github: odersky
+    twitter: odersky
+    photo: /resources/img/martin.png
+    contact_for: [dotty]
+    active: true
+  - member: sjrd
+    name: Sébastien Doeraene
+    title: Principal Engineer
+    email: sebastien.doeraene@epfl.ch
+    github: sjrd
+    twitter: sjrdoeraene
+    photo: /resources/img/sjrd.png
+    contact_for: [scalajs, scalaNative]
+    active: true
+  - member: vincent
+    name: Vincent Derouand
+    title: Communication Manager
+    email: vincent.derouand@epfl.ch
+    twitter: VincentDerouand
+    photo: /resources/img/vincent.png
+    active: false
+    contact_for: [communication]
+  - member: valerie
+    name: Valérie Pedroni
+    title: Community and Communication Coordinator
+    email: valerie.pedroni@epfl.ch
+    photo: /resources/img/valerie.png
+    active: false
+    contact_for: [communication]
+  - member: jorge
+    name: Jorge Vicente Cantero
+    title: Software Development
+    email: jorge.vicentecantero@epfl.ch
+    github: jvican
+    twitter: jvican
+    photo: /resources/img/jorge.png
+    contact_for: [scalaPlatformProcess, sip, spores, buildTools, scalacProfiling, bloop]
+    active: false
+  - member: olafur
+    name: Olafur Pall Geirsson
+    title: Software Development
+    email: olafur.geirsson@epfl.ch
+    github: olafurpg
+    twitter: olafurpg
+    photo: /resources/img/olafur.png
+    contact_for: [scalafix, scalameta]
+    active: false
+  - member: martinduhem
+    name: Martin Duhem
+    title: Software Development
+    email: martin.duhem@epfl.ch
+    github: Duhemm
+    twitter: mnduhem
+    photo: /resources/img/martinduhem.png
+    contact_for: [bloop, scalaNative, dotty]
+    active: false
+  - member: alexandre
+    name: Alexandre Archambault
+    title: Software Development
+    email: alexandre.archambault@epfl.ch
+    github: alexarchambault
+    twitter: alxarchambault
+    photo: /resources/img/alexarchambault.png
+    contact_for: [coursier]
+    active: false
+  - member: fabien
+    name: Fabien Salvi
+    title: System Administrator
+    email: fabien.salvi@epfl.ch
+    github:
+    twitter:
+    photo: /resources/img/fabien.png
+    contact_for: [serverIssues]
+    active: true
+  - member: sylvie
+    name: Sylvie Buchard
+    title: Administrative Specialist
+    email: sylvie.buchard@epfl.ch
+    github:
+    twitter:
+    photo: /resources/img/sylvie.png
+    contact_for: [scalaCenterActivities]
+    active: true
+  - member: heather
+    name: Heather Miller
+    title: Executive Director
+    email: heather.miller@epfl.ch
+    github: heathermiller
+    twitter: heathercmiller
+    photo: /resources/img/heather.png
+    contact_for: []
+    active: false
+  - member: guillaume
+    name: Guillaume Massé
+    title: Software Development
+    email: guillaume.masse@epfl.ch
+    github: MasseGuillaume
+    twitter: MasseGuillaume
+    photo: /resources/img/guillaume.png
+    contact_for: [scalaNative, scastie, scaladex, scalafix]
+    active: false
+  - member: jamie
+    name: Jamie Thompson
+    title: Software Development
+    email: jamesrichard.thompson@epfl.ch
+    github: bishabosha
+    twitter: bishabosha
+    photo: /resources/img/jamiethompson.png
+    contact_for: [tastyScala2, enumFinalisation]
+    active: true
+  - member: ergys
+    name: Ergys Dona
+    title: Software Development
+    email: ergys.dona@epfl.ch
+    github: errikos
+    twitter: ergysdona
+    photo: /resources/img/ergys.png
+    contact_for: [scalaNative]
+    active: false
+  - member: adrien
+    name: Adrien Piquerez
+    title: Software Development
+    email: adrien.piquerez@epfl.ch
+    github: adpi2
+    twitter: adrienpi2
+    photo: /resources/img/adrien.png
+    contact_for: [scala3MigrationGuide, scaladex, bspForSbt]
+    active: true
+  - member: meriam
+    name: Meriam Lachkar
+    title: Software Development
+    email: meriam.lachkar@epfl.ch
+    github: mlachkar
+    twitter: meriamLachkar
+    photo: /resources/img/meriam.png
+    contact_for: [metals, scalafix, migrat3]
+    active: false
+  - member: tgodzik
+    name: Tomasz Godzik
+    title: Software Development
+    email: tgodzik@virtuslab.com
+    github: tgodzik
+    twitter: TomekGodzik
+    photo: /resources/img/tgodzik.png
+    contact_for: [metals, scalameta, bloop]
+    active: false
+  - member: toli
+    name: Anatolii Kmetiuk
+    title: Software Development
+    email: anatolii.kmetiuk@epfl.ch
+    github: anatoliykmetyuk
+    twitter: akmetiuk
+    photo: /resources/img/toli.png
+    contact_for: []
+    active: true
+  - member: wmazur
+    name: Wojciech Mazur
+    title: Software Development
+    email: wmazur@virtuslab.com
+    github: wojciechmazur
+    twitter: wojciech_maz
+    photo: /resources/img/wmazur.png
+    contact_for: [scalaNative]
+    active: false
+  - member: vincenzobaz
+    name: Vincenzo Bazzucchi
+    title: Software Development
+    email: vincenzo.bazzucchi@epfl.ch
+    github: vincenzobaz
+    twitter: vincenzobaz
+    photo: /resources/img/vincenzobaz.png
+    active: false
+  - member: fengyun
+    name: Fengyun Liu
+    title: Software Development
+    email: fengyun.liu@epfl.ch
+    github: liufengyun
+    twitter: liufengyun
+    photo: /resources/img/fengyun.jpg
+    contact_for: [dotty]
+    active: false
+  - member: jedrzej
+    name: Jędrzej Rochala
+    title: Software Development
+    email: jrochala@virtuslab.com
+    github: rochala
+    photo: /resources/img/jedrzej.jpg
+    contact_for: [scastie]
+    active: true
+  - member: quentin
+    name: Quentin Bernet
+    title: Software Development - Intern
+    email: quentin.bernet@epfl.ch
+    github: Sporarum
+    photo: /resources/img/quentin.jpeg
+    contact_for: [dotty, documentationImprovements]
+    active: false
+  - member: smarter
+    name: Guillaume Martres
+    title: Software Development
+    email: guillaume.martres@epfl.ch
+    github: smarter
+    photo: /resources/img/guillaume-martres.jpg
+    contact_for: [dotty]
+    active: true
+  - member: chris
+    name: Chris Kipp
+    title: Software Development
+    email: chris.kipp@lunatech.nl
+    github: ckipp01
+    photo: /resources/img/chris-kipp.webp
+    contact_for: [bloop,metals]
+    active: true
+  - member: johanna
+    name: Johanna Reichen
+    title: Operations Officer & Strategy Advisor
+    email: johanna.reichen@epfl.ch
+    github: reichenjohanna
+    twitter: 
+    photo: /resources/img/johanna.jpeg
+    contact_for: [communication]
+    active: false
+  - member: lucas
+    name: Lucas Nouguier
+    title: Intern
+    email: lucas.nouguier@epfl.ch
+    github: iusildra
+    twitter: LucasNouguier
+    photo: /resources/img/nouguier.jpg
+    contact_for: [scalacDebugging]
+    active: true
+  - member: aymane
+    name: Aymane Lamyaghri
+    title: Intern
+    email: aymane.lamyaghri@epfl.ch
+    github: aymanelamyaghri
+    twitter: 
+    photo: /resources/img/aymane.jpeg
+    contact_for: 
+    active: true
