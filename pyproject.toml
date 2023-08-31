@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hall-of-fame-composer"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii Kmetiuk <anatoliykmetyuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hall_of_fame_composer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.278"
+python-dotenv = "^1.0.0"
+openai = "^0.27.10"
+python-frontmatter = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
