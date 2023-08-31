@@ -120,4 +120,4 @@ def process_docs(docs, chain, output_file):
 if __name__ == '__main__':
   docs = load_docs()
   chain = create_chain()
-  process_docs(docs[:5], chain, out_file)
+  process_docs(docs, chain, out_file)
